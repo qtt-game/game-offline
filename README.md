@@ -5,11 +5,11 @@
 在第一次接入离线包的时候游戏方需要提供：
 
 1. 游戏名称（必须）：
-    案例：**发发摇钱树**
+    * 案例：**发发摇钱树**
 2. 游戏链接（必须）：可以完整进入游戏。
-    案例：`http://newidea4-gamecenter-frontend.1sapp.com/game/prod/ffyqs/index.html?app_id=a3yYtwjTsHvJ&source=286100`
+    * 案例：`http://newidea4-gamecenter-frontend.1sapp.com/game/prod/ffyqs/index.html?app_id=a3yYtwjTsHvJ&source=286100`
 3. 资源路径（必须）：游戏访问资源相对于域名所在的路径。
-    案例：`/game/prod/ffyqs/`
+    * 案例：`/game/prod/ffyqs/`
 
 我方会根据这些信息给游戏方生成一个 `offlineId`，并且此时游戏已经拥有访问的功能，在切换底导和重启App的时候会自动检测离线包资源是否更新并下载资源。
 
