@@ -24,6 +24,8 @@
 
 A: 以发发摇钱树为例。
 
-首先看下整个游戏路径。
+![发发摇钱树资源路径](./image/offline-bag-path.png)
+
+提供的路径是 */game/prod/ffyqs/*，则只会离线 */ffyqs/* 下面的 */res/* */ani/* 等资源，而 */moregame/* 路径下面的资源不离线。
 
 
