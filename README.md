@@ -14,7 +14,7 @@
     2. 游戏链接：http://newidea4-gamecenter-frontend.1sapp.com/game/prod/ffyqs/index.html?app_id=a3yYtwjTsHvJ&source=286100
     3. 资源路径：/game/prod/ffyqs/
 
-我方(钱程 微信:MazeyQian)会根据这些信息给游戏方生成一个 `offlineId`，并且此时游戏已经拥有访问的功能，在切换底导和重启App的时候会自动检测离线包资源是否更新并下载资源。
+我方(微信:MazeyQian)会根据这些信息给游戏方生成一个 `offlineId`，并且此时游戏已经拥有访问的功能，在切换底导和重启App的时候会自动检测离线包资源是否更新并下载资源。
 
 后续游戏资源更新的时候[不推荐]可依照[文档](http://image-slim.qttfe.com/#/?id=_4%e3%80%81%e4%b8%bb%e5%8a%a8%e6%9b%b4%e6%96%b0%e7%a6%bb%e7%ba%bf%e5%8c%85)主动更新离线包，[推荐]也可以将资源路径下的资源打包（ZIP）给游戏中心，让游戏中心手动更新下离线包（为了更稳定的更新离线包，自动更新已关闭）~~并且我方后台会自动以**3分钟**一次的频率拉取游戏服务器资源，若对比游戏资源有更新的话会更新离线包~~。
 
