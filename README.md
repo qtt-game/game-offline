@@ -124,10 +124,6 @@ cache-control: no-cache
 }
 ```
 
-进度查询 Postman 参考：
-
-![query](./image/offline-query-case.png)
-
 ## Q&A
 
 ### Q: 资源路径是什么?
