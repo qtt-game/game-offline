@@ -28,8 +28,8 @@ HOST：`game-offline.1sapp.com`
 
 | 参数 | 是否必须 | 类型 | 描述 |
 | --- | --- | --- | --- |
-| bagEnv | 是 | string | 生产为:offline，测试为:offline/test， |
-| path | 是 | string | 资源路径 |
+| bagEnv | 是 | string | 生产为:offline，测试为:offline/test |
+| path | 是 | string | 资源路径，如：`/game/prod/ffyqs/`，前后都要加 `/` |
 | conversion | 是 | string | 游戏开始按钮的坐标，eg: "0,0" |
 | gameUrl | 是 | string | 游戏可访问url |
 
